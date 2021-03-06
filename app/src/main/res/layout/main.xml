@@ -1,0 +1,98 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="@drawable/bg_kas1"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="20dp"
+			android:padding="8dp"
+			android:background="#FFFFFF"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingTop="2dp"
+				android:text="Hello, Mau Cek Lokasi\?"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Tenang lokasi anda tidak kami simpan, hanya anda yang tau. kita tidak bisa melihatnya."
+				android:textSize="14sp"
+				android:textColor="#546E7A"/>
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="260dp"
+				android:layout_height="200dp"
+				android:src="@drawable/ic_uysfdsindo_logo"
+				android:scaleType="centerCrop"
+				android:layout_gravity="center_horizontal|center_vertical"/>
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:text="Jalan: "
+				android:textSize="14sp"
+				android:textColor="#2962FF"/>
+			<TextView
+				android:id="@+id/textview4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="6dp"
+				android:text="Kecamatan: "
+				android:textSize="14sp"
+				android:textColor="#2962FF"/>
+			<TextView
+				android:id="@+id/textview5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="6dp"
+				android:text="Kota/Kabupaten: "
+				android:textSize="14sp"
+				android:textColor="#2962FF"/>
+			<TextView
+				android:id="@+id/textview6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="6dp"
+				android:text="Negara: "
+				android:textSize="14sp"
+				android:textColor="#2962FF"/>
+			<TextView
+				android:id="@+id/textview7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="6dp"
+				android:text="Kode pos: "
+				android:textSize="14sp"
+				android:textColor="#2962FF"/>
+			<TextView
+				android:id="@+id/textview8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="6dp"
+				android:layout_marginBottom="2dp"
+				android:text="Nomer jalan: "
+				android:textSize="14sp"
+				android:textColor="#2962FF"/>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
